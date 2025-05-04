@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony Trumpets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            margin-top: 20px;
+        }
+        section {
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        #welcome { background-color: #f4cccc; }
+        #products { background-color: #cce5f4; }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Harmony Trumpets</h1>
+        <nav>
+            <button id="changeTextBtn">Change Welcome</button>
+            <button id="toggleStyleBtn">Toggle Style</button>
+            <button id="addRemoveProductBtn">Add/Remove Product</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h2>Welcome</h2>
+            <p id="welcomeText">Welcome to Harmony Trumpets - Crafting excellence in brass since 1985.</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <ul id="productList">
+                <li>Professional Series Trumpets</li>
+                <li>Student Model Trumpets</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
